@@ -1,0 +1,27 @@
+
+[
+    {
+        "id": "99b7300c-c1c2-4649-b5cf-648d63281860",
+        "title": "Zrobić zakupy",
+        "desc": "kupić szynkę, masło, chleb, mleko",
+        "time": "2024-11-15T08:00:00+0000",
+        "status": "todo",
+        "rating": 7
+    },
+    {
+        "id": "152207ca-bdf1-4a7a-af96-0761cc1198b0",
+        "title": "Dokończyć projekt",
+        "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+        "time": "2024-11-15T08:00:00+0000",
+        "status": "done",
+        "rating": 3
+    },
+    {
+        "id": "97240a7b-76f9-451d-b62c-ada5b87c103e",
+        "title": "Zrobić zakupy",
+        "desc": "kupić szynkę, sałatę",
+        "time": "2024-10-15T08:00:00+0000",
+        "status": "todo",
+        "rating": 5
+    }
+]
