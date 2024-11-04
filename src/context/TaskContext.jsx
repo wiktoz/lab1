@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useState } from "react"
+import { createContext, useContext, useState } from "react"
 import { v4 as uuidv4 } from 'uuid'
 import data from "../data.json"
 
@@ -16,26 +16,28 @@ const sortArray = (arr) => {
         const bFuture = b.status === 'todo' && new Date(b.time) > now;
 
         if (aFuture && !bFuture) {
-            return -1;
+            return -1
         }
         if (!aFuture && bFuture) {
-            return 1;
+            return 1
         }
         
         if (a.status === 'todo' && b.status === 'todo') {
-            return new Date(a.time) - new Date(b.time);
+            return new Date(a.time) - new Date(b.time)
         }
         
         if (a.status === 'done' && b.status === 'done') {
-            return 0;
+            return 0
         }
 
         if (a.status === 'todo') {
-            return -1;
+            return -1
         }
         if (b.status === 'todo') {
-            return 1;
+            return 1
         }
+
+        return 0
     })
 }
 
